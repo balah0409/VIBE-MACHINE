@@ -81,11 +81,11 @@ async def get_thumb(videoid):
         para = textwrap.wrap(title, width=32)
         j = 0
         draw.text(
-            (5, 5), f"{'ᴠɪʙᴇ ᴍᴀᴄʜɪɴᴇ'}", fill="white", font=name_font
+            (5, 5), f"{'Vibe x Machine'}", fill="white", font=name_font
         )
         draw.text(
             (600, 150),
-            "STARTED PLAYING",
+            "FOR YOU DARLING",
             fill="white",
             stroke_width=2,
             stroke_fill="white",
