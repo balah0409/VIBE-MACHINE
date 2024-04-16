@@ -71,7 +71,7 @@ async def get_thumb(videoid):
         y2 = Ycenter + 250
         logo = youtube.crop((x1, y1, x2, y2))
         logo.thumbnail((520, 520), Image.LANCZOS)
-        logo = ImageOps.expand(logo, border=15, fill="white")
+        logo = ImageOps.expand(logo, border=5, fill="white")
         background.paste(logo, (50, 100))
         draw = ImageDraw.Draw(background)
         font = ImageFont.truetype("TGNMusic/assets/font2.ttf", 40)
